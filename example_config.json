@@ -1,0 +1,29 @@
+{
+  "model": {
+    "model_type": "temporal",
+    "input_size": 9,
+    "memory_size": 5,
+    "decay_factor": 0.85
+  },
+  "nes": {
+    "population_size": 12,
+    "sigma": 0.15,
+    "learning_rate": 0.08,
+    "min_sigma": 0.05,
+    "sigma_decay": 0.995
+  },
+  "training": {
+    "training_type": "temporal",
+    "num_generations": 300,
+    "max_steps": 600,
+    "min_route_distance": 50.0,
+    "max_route_distance": 150.0,
+    "completion_bonus": 500.0,
+    "save_interval": 10,
+    "print_interval": 1,
+    "visualize_waypoints": false,
+    "batch_size": 4,
+    "num_npc_vehicles": 0,
+    "num_npc_pedestrians": 0
+  }
+}
