@@ -1,0 +1,24 @@
+# Core Dependencies for NES-CARLA Training
+# Following YAGNI: Only include what's actually needed
+
+# CARLA Simulator Python API
+carla==0.9.15
+
+# Core Scientific Computing
+numpy>=1.21.0
+
+# Graph algorithms for route planning (A* algorithm)
+networkx>=2.8.0
+
+# Optional: Data Analysis and Visualization (for analyze_training.py)
+matplotlib>=3.5.0
+seaborn>=0.11.0
+pandas>=1.4.0
+
+# Optional: PyTorch (only needed for advanced models, not used in core NES training)
+# torch>=1.12.0
+# torchvision>=0.13.0
+
+# Development Tools (optional)
+# black>=22.0.0
+# flake8>=4.0.0
